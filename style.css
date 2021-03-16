@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+   background-color:rgb(36, 35, 35);
+    
+    
+}
+#container{
+    position: relative;
+    background-image: url("./img/nirvana\ pic.txt");
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 500px;
+    margin:auto;
+    box-shadow: 8px 8px 12px rgb(22, 21, 21);
+   
+    
+}
+#audio{
+
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    background-image: url("./img/audio\ gif.gif");
+    background-position: center;
+    width:100%;
+    height: 15%;
+    background-color: black;
+    
+    
+
+}
+ #btn-container{
+
+  
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+   
+    text-align: center;
+    
+    
+ } 
+.btn{
+    margin: 20px;
+    height: 50px;
+    background-color: rosybrown;
+    border-radius: 50%;
+    /* margin-left: px; */
+    box-sizing: border-box; 
+    
+
+    
+}
+
+.btn:hover{
+    border: 5px solid rgb(243, 153, 153);
+}
+
+@media screen and (max-width: 650px) {
+
+    #container{
+        width: 100%;
+        height: 300px;
+    }
+
+    .btn{
+        margin: 30px;
+        height: 100%;
+        margin-top: 0;
+        
+    }
+    
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+    <div id="container">
+        <div id="audio">
+            <audio id="audioss"  src="./Nirvana - Lithium.mp3">
+                <!--  aqui é legal pq pode usar dois tipos de audio
+            ex: mp3  e ogg.. caso um deles n seja compativel
+            <source src=""> -->
+
+            </audio>
+
+            <div id="btn-container">
+                <img onclick="pausar(); " class="btn" src="./icones/pause.png" alt="">
+                <img onclick="iniciar(); " class="btn" src="./icones/play.png" alt="">
+                <img onclick="volume(); " class="btn" src="./icones/volume.png" alt="">
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
