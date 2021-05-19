@@ -1,3 +1,9 @@
 # tag-audio-exercise-
-# exercicios de fixação, comandos de audio Javascrip
-![Exercicio Javascript TAG AUDIO](https://jrmoura111.github.io/tag-audio-exercise-/)
+#### desafio do curso programador br
+### Technologies uesd
+* CSS-3
+* Html-5
+* Javascript
+
+### link
+https://jrmoura111.github.io/tag-audio-exercise-
